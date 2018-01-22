@@ -1,0 +1,37 @@
+Type=Exe
+Form=frmKxHost.frm
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\WINDOWS\System32\stdole2.tlb#OLE Automation
+Object={CF9ED78E-94F5-11D6-8731-DF4DA72C6754}#49.0#0; KernelX.ocx
+IconForm="frmKxHost"
+Startup="frmKxHost"
+HelpFile=""
+Title="KernelXHost"
+ExeName32="KernelXHost.exe"
+Command32=""
+Name="KernelXHost"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="LEGEND GROUP"
+CompilationType=-1
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1

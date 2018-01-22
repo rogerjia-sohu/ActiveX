@@ -1,0 +1,253 @@
+[Root]
+Most Recent Package=Internet 包 KernelX
+
+
+[Package|标准安装软件包KernelX|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\ActiveX\KernelX\包
+Controls Design-Time Support=Yes
+
+[Package|标准安装软件包KernelX|Configure DAO ISAMs]
+Applicable=No
+
+[Package|标准安装软件包KernelX|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|标准安装软件包KernelX|Files Found]
+
+[Package|标准安装软件包KernelX|Files Released]
+
+[Package|标准安装软件包KernelX|Missing Dependency Information]
+D:\ActiveX\KernelX\KernelX.dll=
+D:\ActiveX\KernelX\KernelXHost.exe=
+
+[Package|标准安装软件包KernelX|Out-of-Date Dependency Information]
+
+[Package|标准安装软件包KernelX|Files Added]
+C:\WINDOWS\SYSTEM\MsStkPrp.dll=这个文件用于用户控件的设计时的支持。
+D:\ActiveX\KernelX\KernelXHost.exe=
+D:\ActiveX\KernelX\frmKxHost.frm=
+D:\ActiveX\KernelX\KernelXHost.vbp=
+D:\ActiveX\KernelX\KernelXHost.vbw=
+
+[Package|标准安装软件包KernelX|Files Removed]
+
+[Package|标准安装软件包KernelX|Files In Project]
+D:\ActiveX\KernelX\KernelX.ocx=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6CHS.DLL=Yes
+D:\ActiveX\KernelX\KernelX.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=Yes
+C:\WINDOWS\SYSTEM\MSPRPCHS.DLL=Yes
+D:\ActiveX\KernelX\KernelXHost.exe=Yes
+D:\ActiveX\KernelX\frmKxHost.frm=Yes
+D:\ActiveX\KernelX\KernelXHost.vbp=Yes
+D:\ActiveX\KernelX\KernelXHost.vbw=Yes
+
+[Package|标准安装软件包KernelX|Configure Registry Files]
+Applicable=No
+
+[Package|标准安装软件包KernelX|Configure Remote Servers]
+Applicable=No
+
+[Package|标准安装软件包KernelX|Install Locations]
+D:\ActiveX\KernelX\KernelX.ocx=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6CHS.DLL=$(WinSysPath)
+D:\ActiveX\KernelX\KernelX.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSPRPCHS.DLL=$(WinSysPath)
+D:\ActiveX\KernelX\KernelXHost.exe=$(AppPath)
+D:\ActiveX\KernelX\frmKxHost.frm=$(AppPath)
+D:\ActiveX\KernelX\KernelXHost.vbp=$(AppPath)
+D:\ActiveX\KernelX\KernelXHost.vbw=$(AppPath)
+
+[Package|标准安装软件包KernelX|Configure Shared Files]
+Applicable=Yes
+D:\ActiveX\KernelX\KernelX.ocx=Yes
+D:\ActiveX\KernelX\KernelXHost.exe=No
+D:\ActiveX\KernelX\frmKxHost.frm=No
+D:\ActiveX\KernelX\KernelXHost.vbp=No
+D:\ActiveX\KernelX\KernelXHost.vbw=No
+
+[Package|标准安装软件包KernelX|Distribution]
+Type=single
+Size=1.44 MB
+Title=KernelX ActiveX Control for VB6
+
+[Package|标准安装软件包KernelX|IconGroups]
+Group0=KernelX for VB6
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|标准安装软件包KernelX|KernelX for VB6]
+Icon1=KernelXHost.exe
+Title1=KernelX demo
+StartIn1=$(AppPath)
+Key1=Icon2
+Icon2=KernelXHost.vbp
+Title2=KernelXHost Project
+StartIn2=$(AppPath)
+Key2=Icon3
+
+[Package|标准安装软件包KernelX|Package]
+PackageFolder=D:\ActiveX\KernelX\包
+ProjectFolder=D:\ActiveX\KernelX
+ServerSideCab=
+File1=D:\ActiveX\KernelX\包\setup.exe
+File2=D:\ActiveX\KernelX\包\Setup.Lst
+File3=D:\ActiveX\KernelX\包\KernelX.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Internet 包 KernelX|Root]
+SubWizProgID=PDWizard.InetCABPkgSubWiz
+BuildFolder=D:\ActiveX\KernelX\包
+Controls Design-Time Support=Yes
+
+[Package|Internet 包 KernelX|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Internet 包 KernelX|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Internet 包 KernelX|Files Found]
+
+[Package|Internet 包 KernelX|Files Released]
+
+[Package|Internet 包 KernelX|Missing Dependency Information]
+D:\ActiveX\KernelX\KernelX.dll=
+D:\ActiveX\KernelX\KernelXHost.exe=
+
+[Package|Internet 包 KernelX|Out-of-Date Dependency Information]
+
+[Package|Internet 包 KernelX|Files Added]
+c:\windows\system\msstkprp.dll=这个文件用于用户控件的设计时的支持。
+d:\activex\kernelx\kernelxhost.exe=
+d:\activex\kernelx\frmkxhost.frm=
+d:\activex\kernelx\kernelxhost.vbp=
+d:\activex\kernelx\kernelxhost.vbw=
+
+[Package|Internet 包 KernelX|Files Removed]
+
+[Package|Internet 包 KernelX|Files In Project]
+D:\ActiveX\KernelX\KernelX.ocx=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6CHS.DLL=Yes
+D:\ActiveX\KernelX\KernelX.dll=Yes
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=Yes
+C:\WINDOWS\SYSTEM\MSPRPCHS.DLL=Yes
+D:\ActiveX\KernelX\KernelXHost.exe=Yes
+D:\ActiveX\KernelX\frmKxHost.frm=Yes
+D:\ActiveX\KernelX\KernelXHost.vbp=Yes
+D:\ActiveX\KernelX\KernelXHost.vbw=Yes
+
+[Package|Internet 包 KernelX|Configure Registry Files]
+Applicable=No
+
+[Package|Internet 包 KernelX|Configure Remote Servers]
+Applicable=No
+
+[Package|Internet 包 KernelX|Install Locations]
+D:\ActiveX\KernelX\KernelX.ocx=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6CHS.DLL=$(WinSysPath)
+D:\ActiveX\KernelX\KernelX.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSPRPCHS.DLL=$(WinSysPath)
+D:\ActiveX\KernelX\KernelXHost.exe=$(AppPath)
+D:\ActiveX\KernelX\frmKxHost.frm=$(AppPath)
+D:\ActiveX\KernelX\KernelXHost.vbp=$(AppPath)
+D:\ActiveX\KernelX\KernelXHost.vbw=$(AppPath)
+
+[Package|Internet 包 KernelX|Configure Shared Files]
+Applicable=Yes
+D:\ActiveX\KernelX\KernelX.ocx=Yes
+D:\ActiveX\KernelX\KernelXHost.exe=No
+D:\ActiveX\KernelX\frmKxHost.frm=No
+D:\ActiveX\KernelX\KernelXHost.vbp=No
+D:\ActiveX\KernelX\KernelXHost.vbw=No
+
+[Package|Internet 包 KernelX|Distribution]
+Type=single
+Size=1.44 MB
+Title=KernelX ActiveX Control for VB6
+
+[Package|Internet 包 KernelX|IconGroups]
+Group0=KernelX for VB6
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Internet 包 KernelX|KernelX for VB6]
+Icon1=KernelXHost.exe
+Title1=KernelX demo
+StartIn1=$(AppPath)
+Key1=Icon2
+Icon2=KernelXHost.vbp
+Title2=KernelXHost Project
+StartIn2=$(AppPath)
+Key2=Icon3
+
+[Package|Internet 包 KernelX|ComponentInfo]
+KernelX.ocx=thiscab
+MSVBVM60.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+OLEAUT32.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+OLEPRO32.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+ASYCFILT.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+STDOLE2.TLB=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+COMCAT.DLL=http://activex.microsoft.com/controls/vb6/VBRun60.cab
+VB6CHS.DLL=http://activex.microsoft.com/controls/vb6/VB6CHS.cab
+KernelX.dll=thiscab
+MSSTKPRP.DLL=http://activex.microsoft.com/controls/vb6/MsStkPrp.cab
+MSPRPCHS.DLL=http://activex.microsoft.com/controls/vb6/MsPrpCHS.cab
+KernelXHost.exe=thiscab
+frmKxHost.frm=thiscab
+KernelXHost.vbp=thiscab
+KernelXHost.vbw=thiscab
+
+[Package|Internet 包 KernelX|ObjectInfo]
+Kx=false;false
+
+[Package|Internet 包 KernelX|Package]
+PackageFolder=D:\ActiveX\KernelX\包
+ProjectFolder=D:\ActiveX\KernelX
+ServerSideCab=D:\ActiveX\KernelX\包\KernelX.CAB
+File1=D:\ActiveX\KernelX\包\KernelX.CAB
+File2=D:\ActiveX\KernelX\包\KernelX.HTM
+Handler1=PDWizard.WebPostDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
